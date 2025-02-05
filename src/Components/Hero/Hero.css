@@ -1,0 +1,36 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Code Pro';
+    background: url('../../assets/background-home-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    gap: 40px;
+    color: #fff;
+
+}
+.righthero{
+    margin-right:auto;
+    margin-right: 300px;
+    font-size: 30px;
+    width: 200px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+.lefthero h1{
+    font-size: 80px;
+    letter-spacing: 8px;
+}
+.lefthero p{
+    line-height: 1.4;
+}
