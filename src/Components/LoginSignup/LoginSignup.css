@@ -1,0 +1,89 @@
+.login-signup{
+    font-family: 'Source Code Pro' , sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+    background: linear-gradient(to right, rgb(21, 21, 41), rgb(79, 79, 146, 0.5));
+    height: 100vh;
+    background-position: center;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    
+}
+.login-signup h2{
+    text-align: center;
+    color: #fff;
+}
+.login-signup input{
+    display: block;
+    width: 400px;
+    height: 38px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 4px;
+    max-width: 400px;
+    
+}
+.login-signup label{
+    display: block;
+    margin: 0 38%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+
+}
+.login-signup p{
+    text-align: center;
+    margin-left: -150px;
+    
+}
+::placeholder{
+    font-family: 'Source Code Pro';
+}
+.login-signup .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.buttons button{
+width: 150px;
+height: 30px;
+}
+.click{
+    text-decoration: none;
+    font-weight: 500;
+}
+.hide-show{
+    display: none;
+}
+.exit{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: red;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-weight: 500;
+
+}
+.exit:hover{
+    border: 2px solid red;
+    background: white;
+    color: black;
+}

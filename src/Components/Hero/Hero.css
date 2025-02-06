@@ -15,7 +15,7 @@
 }
 .righthero{
     margin-right:auto;
-    margin-right: 300px;
+    margin-right: 400px;
     font-size: 30px;
     width: 200px;
     border-radius: 50%;
@@ -26,6 +26,11 @@
     align-items: center;
     display: flex;
     color: black;
+    cursor: pointer;
+}
+.righthero:hover{
+    width: 190px;
+    height: 190px;
 }
 .lefthero h1{
     font-size: 80px;

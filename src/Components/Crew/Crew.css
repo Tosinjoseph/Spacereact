@@ -1,0 +1,45 @@
+.crew{
+    font-family: 'Source Code Pro' , sans-serif;
+    background: url('../../assets/background-crew-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    color: #fff;
+    height: 100vh;
+}
+.info-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.crew h3{
+ margin-left: 100px;
+}
+.info-img p{
+    line-height: 1.4;
+    max-width: 400px;
+    padding: 0;
+}
+.info ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100px;
+    margin-left:22px;
+    margin-top: 40px;
+    list-style: none;
+}
+.info-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    margin-top: 60px;
+    padding: 0;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.red-dot{
+    background: red;
+}

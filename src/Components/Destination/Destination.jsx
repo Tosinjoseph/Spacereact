@@ -8,11 +8,11 @@ import background_destination from '../../assets/background-destination-desktop.
 const Destination = ({data, dataChange,setDataChange}) => {
   return (
     <div className='destination'>
-        <h3 className='head'>02 PICK YOUR DESTINATION</h3>
+        <h3 className='head'>01 PICK YOUR DESTINATION</h3>
         <div className='image-info container'>
             <img src={moon} alt=''/>
             <div className='info'>
-                <ul>
+                <ul >
                     <li onClick={()=>setDataChange(0)}>MOON</li>
                     <li onClick={()=>setDataChange(1)}>MARS</li>
                     <li onClick={()=>setDataChange(2)}>EUROPA</li>
