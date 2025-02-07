@@ -48,3 +48,22 @@
     margin-left: 100px;
     margin-top: 100px;
 }
+
+
+
+/*Media query*/
+
+@media screen and (max-width:1025px) {
+    .list-info-img{
+        display: block;
+    }
+    .list-info-img ul{
+        display: flex;
+    }
+    .technology img{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}

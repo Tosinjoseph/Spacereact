@@ -1,21 +1,23 @@
 .hero{
     height: 100vh;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     font-family: 'Source Code Pro';
     background: url('../../assets/background-home-desktop.jpg');
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     gap: 40px;
     color: #fff;
+    overflow-y: hidden;
+    overflow-x: hidden;
 
 }
 .righthero{
     margin-right:auto;
-    margin-right: 400px;
+    margin-right: 250px;
     font-size: 30px;
     width: 200px;
     border-radius: 50%;
@@ -37,5 +39,17 @@
     letter-spacing: 8px;
 }
 .lefthero p{
-    line-height: 1.4;
+    line-height: 1.6;
+}
+
+/*Media query*/
+
+@media screen and(max-width: 600px){
+    .righthero{
+        height: 120px;
+        width: 150px;
+        font-size: 25px;
+        background: red;
+
+    }
 }

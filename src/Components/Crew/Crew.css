@@ -43,3 +43,31 @@
 .red-dot{
     background: red;
 }
+
+
+/*Media query*/
+
+@media screen and (max-width: 1025px) {
+    .info-img{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .info-img{
+        display: block;
+        padding-left: 1%;
+        padding-right: 5%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .info-img img{
+        max-width: 80%;
+        margin: auto;
+        padding: auto;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}

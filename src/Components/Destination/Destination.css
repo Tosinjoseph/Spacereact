@@ -76,3 +76,26 @@
 .image-info ul li:hover{
     border-bottom: 3px solid white;
 }
+
+
+/*Media query*/
+
+@media screen and (max-width: 1025px) {
+    .image-info{
+        display: block;
+        padding-left: 3%;
+        padding-right: 3%;
+    } 
+    .image-info img{
+        width: 80%;
+    }
+    .image-info ul{
+
+        align-items: center;
+        
+        justify-content: center;
+        margin: auto;
+
+        
+    }
+}

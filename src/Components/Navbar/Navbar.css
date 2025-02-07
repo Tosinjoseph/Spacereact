@@ -30,6 +30,7 @@
     padding-right: 50px;
     color: white;
     
+    
 }
 .navbar ul li{
     
@@ -38,4 +39,38 @@
 .navbar ul li:hover{
     padding-bottom: 8px;
     border-bottom: 2px solid white;
+}
+
+
+/*Media query*/
+
+@media screen and (max-width: 800px ){
+.navbar ul li{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.navbar ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin-right: 0;
+    padding: 50px 30px;
+    background: rgb(7, 7, 39);
+    margin-top: 0;
+    margin-bottom: 0;
+    
+   /* transform: translateX(-400%);*/
+
+}
+.navbar .navi-icon{
+filter: invert(1);
+z-index: 100;
+position: absolute;
+right: 26%;
+}
+.nav-hide{
+    transform: translateX(-400%);
+}
 }
